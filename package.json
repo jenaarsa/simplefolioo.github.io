@@ -5,8 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
+    "simplefolio": "file:",
     "vanilla-tilt": "^1.8.0"
   }
 }
